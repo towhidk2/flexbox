@@ -1,0 +1,18 @@
+{
+  "name": "flexbox-scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch-sass": "node-sass -w styles.scss styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "live-server": "^1.2.2",
+    "node-sass": "^9.0.0"
+  }
+}

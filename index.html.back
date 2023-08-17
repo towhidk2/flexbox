@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Flexbox Nav Menu with Submenu</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href=""><img src="logo.svg" alt="Logo" width="50"></a>
+    </div>
+ 
+
+    <nav class="nav-menu">
+        <ul class="menu-list">
+            <li><a href="#">Home</a></li>
+            <li class="submenu">
+                <a href="#">Services</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Graphic Design</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+
+  </header>
+</body>
+</html>

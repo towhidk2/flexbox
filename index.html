@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Flexbox Nav Menu with Submenu</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Navigation Menu</title>
 </head>
+
 <body>
+  <div class="top-header">
+    <div class="logo">
+      <a href=""><img src="logo.svg" alt="Logo" width="50"></a>
+    </div>
 
-
- 
-
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__listitem">About
-          <ul class="nav__listitemdrop">
-            <li>Our Team</li>
-            <li>Our Process</li>
-            <li>History</li>
-          </ul>
+    <nav class="main-menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a>
+          <!-- <div class="submenu">
+            <ul>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Mission</a></li>
+            </ul>
+          </div> -->
         </li>
-        <li class="nav__listitem">Work
-          <ul class="nav__listitemdrop">
-            <li>Portfolio</li>
-            <li>Showcase</li>
-          </ul>
-        </li>
-        <li class="nav__listitem">Contact</li>
+        <li><a href="#">Services</a></li>
+        <!-- ... other menu items ... -->
       </ul>
     </nav>
 
-
-
+  </header>
 </body>
+
 </html>
